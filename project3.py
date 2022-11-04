@@ -9,11 +9,11 @@ for number in range(numOfItems):
     print("Please enter the name of item " + str(number+1))
     groceryList.append(input())
     print("How much does " + str(groceryList[number]) + " cost?")
-    itemPrices.append(float(input()))
+    print("$") itemPrices.append(float(input()))
     
 print("Your order was:")
 for number in range(len(groceryList)):
-    print(str(groceryList[number]) + " " + str(itemPrices[number]))
+    print(str(groceryList[number]) + " $" + str(itemPrices[number]))
     
 subtotal = sum(itemPrices)
 totalPrice = round((subtotal * 0.09) + subtotal, 2)
