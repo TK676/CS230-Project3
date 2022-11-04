@@ -1,1 +1,2 @@
 # CS230-Project3
+This project essentially acts as a checkout simulator. It asks the user to input how many items they are purchasing and then asks the user to enter the name and price for each item. It then lists the order back to the user and gives the subtotal and final total, asking the user to input the amount they are payign with. The program then tells the user how much they are owed in change and thanks them for shopping.
